@@ -37,7 +37,12 @@ Finally, inverse kinematics algorithms calculate the exact position of each of t
 
 ### PROCEDURE:
 
-
+1. open the roboanalyzer software.
+2. select the robot and its degrees of freedom.
+3. change the values of X and Y wherever necessary.
+4. simulate the model for inverse kinematics.
+5. plot the graph between the joints.
+6. update the DH parameters of the link configuration and end effector configuration
 
 
 
@@ -46,14 +51,30 @@ Finally, inverse kinematics algorithms calculate the exact position of each of t
 
 ### SIMULATION 
  
- 
+ RPR Robot:
+ ![output](analyser1.png)
+ ![output](analyser2.png)
+
+
+ 3R Robot:
+ ![output](analyser3.png)
+ ![output](analyser4.png)
  
  
  
  
  
  ### PLOT 
- 
+   RPR Robot:
+   ![output](analyser5.png)
+   ![output](analyser6.png)
+
+   3R Robot:
+   ![output](analyser7.png)
+   ![output](analyser8.png)
+
+   
+
  
  
  
@@ -83,3 +104,4 @@ Finally, inverse kinematics algorithms calculate the exact position of each of t
 
 
 ### RESULTS :  
+Thus,the inverse kinematics using DH parameters for a 3 dof planer and 3 dof articulated robot using roboanalyzer is analysed and the graph of joint angle for a given input end effector position is plotted.
